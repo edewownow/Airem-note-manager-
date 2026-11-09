@@ -1,0 +1,58 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+# local debug/scratch artifacts (screenshots, ui dumps, mmkv dumps — never commit)
+_dbg_*
+
+# macOS
+.DS_Store
+*.pem
+
+# env files (secrets must never be committed — key lives only in runtime Settings/MMKV)
+.env
+.env*
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/ios
+/android
+scripts/.voice-corpus.js
+scripts/vault-sim/.out.js
+scripts/listen-sim/.out.js
+scripts/.private-asr.js
+scripts/.intent.js
+scripts/.date.js
+scripts/.about.js
+scripts/kotlin-vault/.classes/
+scripts/kotlin-vault/.vectors.js
+scripts/vault-sim/.core.js
+modules/memoairem-vault/android/build/
+scripts/intent-model/.train.js

@@ -1,0 +1,6 @@
+{
+  "name": "memoairem-llm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MemoAirem on-device Gemma (LiteRT-LM) — local Expo module. TRIAL on branch feat/gemma. See android/src/main/java/expo/modules/memoairemllm/MemoairemLlmModule.kt"
+}

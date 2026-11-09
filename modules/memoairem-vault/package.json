@@ -1,0 +1,6 @@
+{
+  "name": "memoairem-vault",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MemoAirem vault core (Kotlin) — local Expo module. See android/src/main/java/expo/modules/memoairemvault/VaultCrypto.kt"
+}
